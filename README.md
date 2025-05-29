@@ -63,7 +63,7 @@
   </div>
 
   <button class="button" onclick="showMessage()">Gönlümü Almana İzin Veriyorum</button>
-  <div id="message" class="hidden">Demek ki hâlâ bir şansım var. Teşekkür ederim... Beni sevidğini söylediğini tekrardan duymak istiyorum 🌱</div>
+  <div id="message" class="hidden">Demek ki hâlâ bir şansım var. Teşekkür ederim... Beni sevdiğini söylediğini yeniden duyabilmek istiyorum 🌱</div>
 
   <script>
     function showMessage() {
