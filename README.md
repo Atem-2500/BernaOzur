@@ -44,7 +44,7 @@
   </style>
 </head>
 <body>
-  <h1>Kırgın Kalmasın Diye…</h1>
+  <h1>Özür Dilerim <3</h1>
 
   <div class="section">
     <p>Sana bir şeyler söylemiştim ve farkında olmadan sana <strong>değersizmişsin</strong> gibi hissettirdim. Bu cümle bile içimi acıtıyor çünkü senin kendini böyle hissetmen, benim istemediğim en son şeydi.</p>
@@ -62,8 +62,8 @@
     <p>Seninle konuşmak, gülmek, paylaşmak güzeldi. Hâlâ öyle. Sadece kırgınlık değil, <strong>değer</strong> de kalsın istiyorum içimizde. Ve ben bunun için elimden geleni yapacağım. Sadece bil istedim…</p>
   </div>
 
-  <button class="button" onclick="showMessage()">Bunu okudum…</button>
-  <div id="message" class="hidden">Ve gülümsedim, az da olsa. Bu da bana yeter. 🌱</div>
+  <button class="button" onclick="showMessage()">Gönlümü Almana İzin Veriyorum</button>
+  <div id="message" class="hidden">Demek ki hâlâ bir şansım var. Teşekkür ederim... cidden 🌱</div>
 
   <script>
     function showMessage() {
