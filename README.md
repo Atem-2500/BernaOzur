@@ -72,3 +72,47 @@
   </script>
 </body>
 </html>
+
+<!-- Açılışta gösterilecek tam ekran görsel -->
+<div class="overlay" id="overlay">
+  <span class="close-btn" onclick="closeOverlay()">×</span>
+  <img src="eşek ömer.png" alt="Özür Görseli">
+</div>
+
+<style>
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+
+  .overlay img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(255,255,255,0.3);
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 36px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+</style>
+
+<script>
+  function closeOverlay() {
+    document.getElementById('overlay').style.display = 'none';
+  }
+</script>
