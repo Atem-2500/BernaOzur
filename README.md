@@ -76,7 +76,7 @@
 <!-- Açılışta gösterilecek tam ekran görsel -->
 <div class="overlay" id="overlay">
   <span class="close-btn" onclick="closeOverlay()">×</span>
-  <img src="eşek ömer.png" alt="Özür Görseli">
+  <img src="esek_omer.png" alt="Özür Görseli">
 </div>
 
 <style>
